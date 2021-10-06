@@ -1,0 +1,87 @@
+.progVectorbg {
+  background-image: url("./Vector 6.png");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100% -122px;
+}
+.progVector5bg {
+  background-image: url("./Vector 5.png");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px 0px;
+  position: relative;
+}
+.programWrapper {
+  display: flex;
+}
+.programWrapper {
+  padding: 265px 0 10px;
+}
+.programLeftContent {
+  width: 58%;
+  padding-left: 112px;
+}
+.programLeftContent h2 {
+  width: 86%;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  font-style: normal;
+  position: relative;
+}
+.programLeftContent ul {
+  padding-top: 40px;
+}
+.programLeftContent ul li {
+  list-style: none;
+  position: relative;
+  padding: 10px 20px 10px 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28.8px;
+}
+
+.programLeftContent ul li::before {
+  background-image: url("./listicon.png");
+  content: "";
+  width: 33px;
+  height: 34px;
+  position: absolute;
+  left: 0;
+  top: 12px;
+}
+.programRightContent {
+  width: 40%;
+  position: relative;
+}
+.programRightContent img {
+  width: 717px;
+  height: 479px;
+  position: absolute;
+  top: 144px;
+  right: -90px;
+}
+.programLeftContent h2::after {
+  background-image: url("./Vector.png");
+  background-repeat: no-repeat;
+  content: "";
+  width: 135px;
+  height: 82.93px;
+  position: absolute;
+  /* left: 63%; */
+  top: 0;
+  right: 0;
+}
+
+.programLeftContent h2::before {
+  background-image: url("./Component 1.png");
+  background-repeat: no-repeat;
+  content: "";
+  width: 50px;
+  height: 107.93px;
+  position: absolute;
+  left: -51px;
+  top: -5px;
+}

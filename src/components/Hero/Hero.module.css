@@ -1,0 +1,100 @@
+.heroSect {
+  /* @import url("./images/"); */
+  background-image: url("./big.png");
+  width: 100%;
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90% 0;
+  padding-top: 128px;
+  padding-bottom: 100px;
+}
+.heroRightContent img {
+  position: absolute;
+  height: 590px;
+  right: -64px;
+  transform: translateX(100rem);
+  animation: slideIn 2s forwards;
+  margin-top: 45px;
+}
+
+.heroRightContent img:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: ease-in-out 2s;
+  cursor: pointer;
+}
+@keyframes slideIn {
+  from {
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.heroRightContent {
+  position: relative;
+  width: 40%;
+}
+.heroWrapper {
+  display: flex;
+}
+.heroLeftContent {
+  margin-top: 142px;
+  color: #fff;
+  width: 60%;
+}
+.heroLeftContentWrap {
+  width: 85%;
+}
+.heroLeftContentWrap h2 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 69px;
+  text-transform: uppercase;
+  position: relative;
+  padding: 26px 0;
+  transform: translateY(-100rem);
+  animation: slideIn 1.5s forwards;
+}
+.heroLeftContentWrap h2::before {
+  background-image: url("./Group.png");
+  position: absolute;
+  left: -3%;
+  top: -1.64%;
+  width: 135.62px;
+  height: 85.31px;
+  content: "";
+  transform: translateX(-100rem);
+  animation: slideIn 1.5s forwards;
+}
+.heroLeftContentWrap p {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 22px;
+  padding-right: 25%;
+  transform: translateY(100rem);
+  animation: slideIn 1.5s forwards;
+}
+
+/* .typingDemo {
+  width: 100%;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+} */

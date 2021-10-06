@@ -1,38 +1,57 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat";
+}
+.container {
+  max-width: 1749px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+@media screen and (max-width: 1740px) {
+  .container {
+    max-width: 93% !important;
+    padding: 0px 20px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .container {
+    max-width: 1200px;
+    padding: 0px 20px;
+  }
+}
+/* button */
+
+.globalbtn {
+  padding: 20px 60px;
+  text-decoration: none;
   text-align: center;
+  color: #fff;
+  transition: 0.5s;
+  border: 1px solid #ec3944;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  position: relative;
+  top: 53px;
+  left: 100px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.globalbtn:hover {
+  border: 1px solid transparent;
+  background: #ec3944 url(https://i.postimg.cc/wBXGXbWN/pixel.png);
+  transition-delay: 0.8s;
+  background-size: 180px;
+  animation: animate 0.8s steps(8) forwards;
+  cursor: pointer;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes animate {
+  0% {
+    background-position-y: 0;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  100% {
+    background-position-y: -480px;
   }
 }

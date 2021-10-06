@@ -1,0 +1,77 @@
+.AccessSect {
+  padding: 40px 0 100px;
+}
+
+.AccessContent h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: capitalize;
+  width: 50%;
+  margin: auto;
+  color: #222222;
+  padding-bottom: 94px;
+}
+.AccessCardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.AccessEnroll {
+  background-image: linear-gradient(to right, rgb(1, 10, 55), rgb(1, 123, 169));
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 15px;
+}
+.AccessEnroll::after {
+  background-image: url("./transparent-1 1.png");
+  width: 562px;
+  height: 485px;
+  position: absolute;
+  content: "";
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  right: -3%;
+  top: -29%;
+}
+.AccessEnroll h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #f5fbfd;
+  max-width: 60%;
+  position: relative;
+}
+.AccessEnroll h3::before {
+  background-image: url("./Group 69.png");
+  width: 63px;
+  height: 73px;
+  position: absolute;
+  content: "";
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: 0;
+  bottom: 38%;
+}
+
+.AccessEnroll h3::after {
+  background-image: url("./Group 52.png");
+  width: 115px;
+  height: 73px;
+  position: absolute;
+  content: "";
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: -28%;
+  left: 80%;
+}

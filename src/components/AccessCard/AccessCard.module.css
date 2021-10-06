@@ -1,0 +1,51 @@
+.AccessCard {
+  width: 30.33%;
+  margin-right: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 130px;
+  box-shadow: 0 67px 96px rgb(133 238 235 / 20%);
+  position: relative;
+  padding-top: 150px;
+  border-radius: 20px;
+  border: none;
+}
+.AccessCard:hover {
+  box-shadow: 0 67px 164px rgb(133 238 235 / 40%);
+  cursor: pointer;
+}
+.AccessCard:hover > img {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  transition: all 2s;
+}
+.AccessCard img {
+  width: 246px;
+  height: 175px;
+  margin-bottom: 20px;
+  position: absolute;
+  top: -10%;
+}
+.AccessCard h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #363740;
+  padding: 20px 0;
+}
+.AccessCard p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 180%;
+  text-align: center;
+  color: #5c6781;
+  padding: 0 10px 17px;
+}
