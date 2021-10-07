@@ -1,0 +1,10 @@
+.footer {
+  background-image: url("./Vector 6.png");
+  width: 100%;
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90% 0;
+  padding-top: 128px;
+  padding-bottom: 100px;
+}
